@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 25px;
     line-height: 1;
   }
   
@@ -9,7 +9,7 @@ body {
     border: none;
     resize: none;
     color: #000000;
-    border-left: 1px solid black;
+    border-left: 15px solid black;
     padding: 10px;
   }
   
@@ -32,18 +32,18 @@ body {
   
   .row {
     white-space: pre-wrap;
-    height: 80px;
-    border-top: 1px solid white;;
+    height: 50px;
+    border-top: 15px solid white;;
   }
   
   .hour {
     background-color: #ffffff;
     color: #000000;
-    border-top: 1px dashed #000000;
+    border-top: 15px solid #000000;
   }
   
   .past {
-    background-color: #d3d3d3;
+    background-color: #116ce4c4;
     color: white;
   }
   
@@ -54,19 +54,19 @@ body {
   
   .future {
     background-color: #77dd77;
-    color: white;
+    color: rgb(95, 235, 165);
   }
   
   .saveBtn {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06AED5;
-    color: white;
+    background-color: #2fd9ff;
+    color: rgb(28, 75, 230);
   }
   
   .saveBtn i:hover {
     font-size: 20px;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #2fd9ff;
   }
-  
